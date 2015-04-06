@@ -1,2 +1,6 @@
 .sass-cache
 *.css.map
+*.scssc
+*.sassc
+/node_modules
+npm-debug.log
