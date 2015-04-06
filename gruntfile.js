@@ -52,7 +52,7 @@ module.exports = function(grunt) {
                 },
             },
             inline: {
-                files: ['html/**/*.html', 'sass/**/*.sass'],
+                files: ['html/**/*.html', 'sass/**/*.sass', 'jade/**/*.jade'],
                 tasks: ['inlinecss'],
                 options: {
                     spawn: false,
